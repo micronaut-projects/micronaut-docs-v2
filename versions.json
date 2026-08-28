@@ -1,0 +1,10 @@
+{
+  "versions": [
+    {
+      "label": "Latest (4.10.x)",
+      "href": "/latest/",
+      "release": "4.10.16",
+      "current": true
+    }
+  ]
+}
