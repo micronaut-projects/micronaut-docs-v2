@@ -1,6 +1,6 @@
 {
-  "base": "/micronaut-docs-v2/",
+  "base": "/",
   "mainSiteUrl": "https://micronaut-projects.github.io/micronaut-web/",
-  "docsSiteUrl": "https://micronaut-projects.github.io/micronaut-docs-v2/",
+  "docsSiteUrl": "https://docs.micronaut.io/",
   "guidesSiteUrl": "https://micronaut-projects.github.io/micronaut-guides-v2/"
 }
