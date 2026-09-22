@@ -3,8 +3,7 @@
     {
       "label": "Latest (5.1.5)",
       "href": "/latest/",
-      "release": "5.1.5",
-      "current": true
+      "release": "5.1.5"
     },
     {
       "label": "5.0.6",
@@ -12,9 +11,9 @@
       "release": "5.0.6"
     },
     {
-      "label": "4.10.18",
+      "label": "4.10.19",
       "href": "/4.10.x/",
-      "release": "4.10.18"
+      "release": "4.10.19"
     }
   ]
 }
