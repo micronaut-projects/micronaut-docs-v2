@@ -1,9 +1,10 @@
 {
   "versions": [
     {
-      "label": "Latest (5.2.3)",
+      "label": "Latest (5.2.4)",
       "href": "/latest/",
-      "release": "5.2.3"
+      "release": "5.2.4",
+      "current": true
     },
     {
       "label": "5.1.5",
