@@ -13,7 +13,8 @@ a{color:inherit}
 <script>
 const base="/";
 const [version,api,...page]=location.pathname.startsWith(base)?location.pathname.slice(base.length).split("/"):[];
-if(version&&api==="api"){location.replace("https://micronaut-projects.github.io/micronaut-docs"+"/"+version+"/api/"+page.join("/")+location.search+location.hash);}
+const line=/^(\d+\.\d+)\./.exec(version||"")?.[1];
+if(version&&api==="api"){location.replace("https://micronaut-projects.github.io/micronaut-docs"+"/"+(line?line+(line==="3.10"||line==="4.10"?"x":".x"):version)+"/api/"+page.join("/")+location.search+location.hash);}
 </script>
 </head>
 <body>
